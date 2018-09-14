@@ -1,0 +1,22 @@
+{
+  "name": "extends-type",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ClassA.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomainLanz/extends-type.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomainLanz/extends-type/issues"
+  },
+  "homepage": "https://github.com/RomainLanz/extends-type#readme",
+  "dependencies": {
+    "@adonisjs/lucid": "^6.1.2"
+  }
+}

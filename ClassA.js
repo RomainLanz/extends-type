@@ -1,9 +1,12 @@
+'use strict'
 
-/** @type {import('./ClassB')} */
-const B = JSON.parse("")
+/** @typedef {typeof import('@adonisjs/lucid/src/Lucid/Model')} Model */
 
-class A extends B {
-  foo () {
-    // this. doesn't provide the Bar method.
+/** @type {Model} */
+const Model = use('Model')
+
+class MyModel extends Model {
+  test () {
+    this
   }
 }
